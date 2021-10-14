@@ -1,25 +1,97 @@
 
+/***************** Tag Selectors***********************/
+body {
+    background-color: rgb(17, 32, 49);
+    padding-top: 40px;
+}
+ 
+ 
+hr {
+    border-color: white;
+    border-width: 5px;
+    border-style: dotted none none none;
+    height: 0px;
+    width: 5%;
+}
+h1, h3 {
+    color: white;
+}
+p{
+    color:white;
+}
+/***************** Class Selectors*********************** Use to apply style to thimgs that apear many times */
 
-
-
-
-color1{
-    color:#C4E9B2;
-
+.circular{
+    border-radius: 100%;
+}
+.rotate90{
+    rotate: 270deg;
+}
+.card{
+    width: clamp(200px, 50%, 800px)
+}
+video{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.lesson{
+    background-color: #D4ECDD;
+    height:100px;
+    justify-content: center;
 }
 
-color2{
-    color:#FB495A;
-
+.grid-1 {
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: auto auto auto;
 }
-color3{
-   color:#E48663;
 
+.item-1 {
+    background: #b03532;
 }
-color4{
-    color:#241A29;
+.item-2 {
+    background: #33a8a5;
+  }
+.item-3 {
+    background: #30997a;
+  }
+.item-4 {
+    background: #6a478f;
+  }
+.item-5 {
+    background: #da6f2b;
+  }
+.item-6 {
+    background: #3d8bb1;
+  }
+.item-7 {
+    background: #e03f3f;
+  }
+.item-8 {
+    background: #59a627;
+  }
+.item-9 {
+    background: #4464a1;
+  }
 
+.navbar{
+    background-color:#152D35;
+    display:grid;
+    grid-template-columns: 5% 15% 75% 5%;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-color5{
+/***************** ID Selectors*********************** Use to style for things that only appear once */
+
+
+#heading{
     color: #f81667;
+}
+
+:root{
+    --text-color: white;
 }
